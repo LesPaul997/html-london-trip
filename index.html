@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <section id="Prima intestazione">
+        <section id="Sezione header">
         <h1>Il mio viaggio a Londra</h1>
 
         <!-- Chiedere del perchè mi si spostano le immagini in colonna se riduco la pagina web -->
@@ -21,46 +21,62 @@
     </header>
 
     <main>
-        <section id="Seconda intestazione">
-            <h2>Le mie spese</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Numero</th>
-                            <th>Descrzione</th>
-                            <th>Costo</th>
-                        </tr>
-                     </thead>
 
-                     <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>BigliettoAereo</td>
-                            <td>120€</td>
-                         </tr>
-                         <tr>
-                            <td>1</td>
-                            <td>BigliettoAereo</td>
-                            <td>120€</td>
-                         </tr>
-                         <tr>
-                            <td>1</td>
-                            <td>BigliettoAereo</td>
-                            <td>120€</td>
-                         </tr>
-                         <tr>
-                            <td colspan="2">Totale</td>
-                            <td>360€</td>
-                         </tr>
-                     </tbody>
+        <!-- Utilizzo del div all'interno di un main (chiedere a Marco se è giusto farlo in questo modo) -->
+        
+        <div>
+            <section id="Prima sezione main">
+                <h2>Le mie spese</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Numero</th>
+                                <th>Descrzione</th>
+                                <th>Costo</th>
+                            </tr>
+                        </thead>
 
-                 </table>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>BigliettoAereo</td>
+                                <td>120€</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>BigliettoAereo</td>
+                                <td>120€</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>BigliettoAereo</td>
+                                <td>120€</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Totale</td>
+                                <td>360€</td>
+                            </tr>
+                        </tbody>
 
-                 <hr>
-                 
-        </section>
+                    </table>
 
+                    <hr>
 
+            </section>
+
+            <section id="Seconda sezione main">
+                <h3>Cose da fare</h3>
+                <ul>
+                    <li>Visitare la Tower of London</li>
+                    <li>Visitare greenwich</li>
+                    <li>Ascoltare un artista di strada a Covent Garden</li>
+                    <li>Mangiare il tipico Fish and Chips inglese</li>
+                </ul>
+
+                <hr>
+
+            </section>
+        </div>
 
     </main>
     
